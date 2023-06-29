@@ -82,7 +82,6 @@ class Data_raw():
         self.data = np.zeros((Nworld*(Nstep-lag),Idim,Jdim),dtype='float32') # Can we give int to a conv2D ??? It only works with float ...
         self.label = np.zeros((Nworld*(Nstep-lag),Idim,Jdim),dtype='float32') # Can we give int to a conv2D ??? It only works with float ...
 
-        print(self.data.shape)
 
         #for files in outFiles:
         #    world,worldName = readWorld(self.path,files)
